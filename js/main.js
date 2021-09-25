@@ -6,7 +6,7 @@ function calculate() {
   	amount: input,
 	}
 
-	fetch('http://pennee.herokuapp.com/api/result', {
+	fetch('https://pennee.herokuapp.com/api/result', {
 	  method: "POST",
 	  mode: 'cors',
 	  body: JSON.stringify(_data),
